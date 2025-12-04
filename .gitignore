@@ -1,0 +1,15 @@
+# Ignore Mac/Windows system files
+.DS_Store
+Thumbs.db
+
+# Ignore Python junk
+backend/venv/
+backend/__pycache__/
+*.pyc
+
+# Ignore Node junk (CRITICAL)
+movie-recommendation-app/node_modules/
+movie-recommendation-app/build/
+
+# Ignore local env files
+.env
